@@ -35,21 +35,21 @@
     "postversion": "git push && git push --tags"
   },
   "devDependencies": {
-    "@nestjs/testing": "^6.6.3",
-    "@types/jest": "^24.0.22",
-    "@types/node": "^12.12.7",
-    "jest": "^24.9.0",
+    "@nestjs/testing": "^7.5.1",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^14.14.6",
+    "jest": "^26.6.3",
     "prettier": "^1.19.1",
     "rimraf": "^3.0.0",
-    "ts-jest": "^24.1.0",
+    "ts-jest": "^26.4.3",
     "tslint": "^6.0.0-beta0",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.7.2"
   },
   "dependencies": {
-    "@nestjs/common": "^6.6.3",
-    "@nestjs/core": "^6.6.3",
-    "onesignal-api-client-core": "^1.1.12",
+    "@nestjs/common": "^7.5.1",
+    "@nestjs/core": "^7.5.1",
+    "onesignal-api-client-core": "github:ecorona/onesignal",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^6.5.2"
   },
